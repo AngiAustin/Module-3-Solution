@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -13,37 +13,37 @@
     <![endif]-->
 
     <title>Bootstrap Starter Page</title>
-    <link rel="stylesheet" href="https://angiaustin.github.io/Module-3-Solution/css/bootstrap.css">
+    <link rel="stylesheet" href="https://angiaustin.github.io/Module-3-Solution/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://angiaustin.github.io/Module-3-Solution/css/styles.css">
   </head>
 <body>
-  <div class="col.xs.12" id="container-fluid">
-    <header>
-  <h1>Food LLC</h1>
-      <div class="row">
-  <div class="col-xs-12">
-    <div class="input-group">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Menu<span class="caret"></span></button>
-        <ul class="dropdown-menu">
-          <li><a href="https://angiaustin.github.io/Module-3-Solution/#Chicken">Chicken</a></li>
-          <li><a href="https://angiaustin.github.io/Module-3-Solution/#Beef">Beef</a></li>
-          <li><a href="https://angiaustin.github.io/Module-3-Solution/#Sushi">Sushi</a></li>
-          <li role="separator" class="divider"></li>
-        </ul>
-      </div><!-- /btn-group -->
-      <input type="text" class="form-control" aria-label="...">
-    </div><!-- /input-group -->
-  </div><!-- /.col-xs-12 -->
-</div><!-- /.row -->
-    </header>  
-  
-    <!-- Header and Nav Bar ends here -->
-    
-    <!--  Body Content starts here  -->
-    
-  <div>
-    <h2 class="text-center">Our Menu</h2>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html">Food, LLC</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav d-block d-md-none">
+                <li class="nav-item"><a class="nav-link" href="#">Chicken</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Beef</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sushi</a></li>
+          </ul>
+      </div>
+    </nav>
+
+  <h1 class="text-center pt-5">Our Menu</h1>
+  <hr class="w-25 py-2">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="content-box">
+        <p class="item-name">Chicken</p>
     <p>Chicken -----  This is just a bunch of options for chicken items served at the restaurant.  From chow mein to orange to stir fry to teriyaki.  Too fill up space on the page.  A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.[1] They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.
 
 A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.
@@ -51,12 +51,36 @@ A male chicken is called a rooster or a cockerel. A female chicken is called a h
 When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this. [2]
 
 Chickens can also be farmed intensively. This lets farms make a lot of chicken meat and eggs. On average, a chicken will live between three to five years (some breeds are known to live longer), and have three distinct life phases: egg, chick and chicken stage. In each stage a chicken will have differing needs to ensure they continue to develop healthily throughout their lifetime.</p>
-  </div><!-- content div ends here -->
-  
-  
-  <footer>
-    <p>Here is all the information for contacting the restaurant - 2020.....</p>
-  </footer>
+  </p>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="content-box">
+        <p class="item-name">Beef</p>
+          <p>Beef -----  This is just a bunch of options for chicken items served at the restaurant.  From chow mein to orange to stir fry to teriyaki.  Too fill up space on the page.  A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.[1] They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.
+
+A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.
+
+When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this. [2]
+
+Chickens can also be farmed intensively. This lets farms make a lot of chicken meat and eggs. On average, a chicken will live between three to five years (some breeds are known to live longer), and have three distinct life phases: egg, chick and chicken stage. In each stage a chicken will have differing needs to ensure they continue to develop healthily throughout their lifetime.</p>
+  </p>
+        </div>
+      </div>      
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="content-box">
+        <p class="item-name">Sushi</p>
+                  <p>Sushi -----  This is just a bunch of options for chicken items served at the restaurant.  From chow mein to orange to stir fry to teriyaki.  Too fill up space on the page.  A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.[1] They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.
+
+A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.
+
+When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this. [2]
+
+Chickens can also be farmed intensively. This lets farms make a lot of chicken meat and eggs. On average, a chicken will live between three to five years (some breeds are known to live longer), and have three distinct life phases: egg, chick and chicken stage. In each stage a chicken will have differing needs to ensure they continue to develop healthily throughout their lifetime.</p>
+  </p>
+         </div>
+      </div>
+    </div>
   </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
